@@ -6,22 +6,21 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <link rel="preload" href="locale/pt.txt?v=1660249515982" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1660249515982" as="script"/>
-	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/r/2/0_0.jpg?v=1660249515982" as="image"/>
-	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/l/2/0_0.jpg?v=1660249515982" as="image"/>
-	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/u/2/0_0.jpg?v=1660249515982" as="image"/>
-	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/d/2/0_0.jpg?v=1660249515982" as="image"/>
-	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/f/2/0_0.jpg?v=1660249515982" as="image"/>
-	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/b/2/0_0.jpg?v=1660249515982" as="image"/>
-	<script src="scorm.js" type="text/javascript"></script>
+    <link rel="preload" href="locale/pt.txt?v=1670954291135" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1670954291135" as="script"/>
+	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/r/2/0_0.jpg?v=1670954291135" as="image"/>
+	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/l/2/0_0.jpg?v=1670954291135" as="image"/>
+	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/u/2/0_0.jpg?v=1670954291135" as="image"/>
+	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/d/2/0_0.jpg?v=1670954291135" as="image"/>
+	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/f/2/0_0.jpg?v=1670954291135" as="image"/>
+	<link rel="preload" href="media/panorama_63D84390_6ECF_D7CF_41C0_418204B7D000_0/b/2/0_0.jpg?v=1670954291135" as="image"/>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#FAFAFA"/>
-    <script src="lib/tdvplayer.js?v=1660249515982"></script>
-    <script src="script.js?v=1660249515982"></script>
+    <script src="lib/tdvplayer.js?v=1670954291135"></script>
+    <script src="script.js?v=1670954291135"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"mobile":"script_mobile.js?v=1660249515982","general":"script_general.js?v=1660249515982"};
+        var devicesUrl = {"general":"script_general.js?v=1670954291135","mobile":"script_mobile.js?v=1670954291135"};
 
         (function()
         {
@@ -64,9 +63,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1660249515982');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1660249515982');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1660249515982');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1670954291135');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1670954291135');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1670954291135');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -312,7 +311,7 @@
         #viewer { z-index:1; }
         #preloadContainer { z-index:2; opacity:0; background-color:rgba(250,250,250,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
     </style>
-    <link rel="stylesheet" href="fonts.css?v=1660249515982">
+    <link rel="stylesheet" href="fonts.css?v=1670954291135">
 </head>
 <body>
     <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_A9526F8F_8962_FE10_41BB_937522F54E8F.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 24.07%; bottom: 64.48%; width: 59.01%; height: 18.04%"></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_ABF4362B_897D_0E17_41D8_8D0DB2F79462.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 31.06%; bottom: 8.11%; width: 43.17%; height: 26.43%"></div><div style="z-index: 6; position: absolute; left: 4.5%; top: 49.28%; width: 88.82%; height: 10.63%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:1.8181818181818177vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.82vmin;font-family:'Arabic Transparent';"><B>PROJETO CURVELO EM 360 GRAUS</B></SPAN></SPAN></DIV></div></div></div>
